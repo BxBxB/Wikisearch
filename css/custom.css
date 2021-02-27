@@ -1,0 +1,158 @@
+@media screen and (min-width: 992px) {
+	.al_heading,
+	.al_inpt,
+	.al_search {
+		float: left;
+	}
+}
+@media screen and (max-width: 991px) {
+	#alrandom {
+		display: none;
+	}
+	#tbx,
+	#asrchbox,
+	#arandom {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 5px;
+	}
+}
+
+body {
+	background-size: cover;
+	text-align: center;
+	background-attachment: fixed;
+	padding: 15px;
+	font-family: helvetica;
+}
+
+header {
+	margin: 0 auto;
+	max-width: 960px;
+	min-height: 7em;
+}
+
+.disp {
+	display: none;
+}
+
+strong {
+	color: #444;
+}
+
+.heading {
+	margin-top: 20vh;
+	margin-bottom: 7vh;
+	font-size: 96px;
+	font-family: EB Garamond;
+	color: inherit;
+}
+
+.al_heading {
+	font-size: 40px;
+	font-family: EB Garamond;
+	display: table;
+	margin: 0 auto;
+	color: inherit;
+	padding-right: 15px;
+}
+
+.smal {
+	font-size: 62px;
+}
+
+.al_smal {
+	font-size: 28px;
+}
+
+.sbox {
+	margin: 0 auto;
+	max-width: 720px;
+}
+
+.inpt {
+	font-size: 22px;
+	width: 100%;
+	padding: 10px;
+}
+
+.al_inpt {
+	display: table;
+	margin: 0 auto;
+	font-size: 22px;
+	width: 538px;
+	padding: 10px;
+}
+
+.search {
+	font-size: 17px;
+	padding: 10px;
+	background: white;
+	color: black;
+}
+
+.al_search {
+	display: table;
+	margin: 0 auto;
+	border: 2px solid black;
+	font-size: 22px;
+	padding: 10px;
+	background: rgba(1, 1, 1, 1);
+	color: white;
+}
+
+button {
+	margin: 50px 30px 0 30px;
+	border: none;
+}
+
+.al_button {
+	margin: 0;
+	margin-left: 10px;
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+}
+
+button:active {
+	outline: none;
+}
+
+.btns {
+	min-height: 100px;
+}
+
+.result {
+	border-left: 3px solid black;
+	background: white;
+	margin: 0 auto;
+	max-width: 960px;
+	text-align: justify;
+	padding: 1em;
+}
+
+.title {
+	font-size: 24px;
+}
+
+.uri {
+	color: #003300;
+}
+
+a {
+	text-decoration: none;
+	color: #3333ff;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000033;
+}
+
+a:hover {
+	color: blue;
+}
+
+footer {
+	font-size: 20px;
+}
