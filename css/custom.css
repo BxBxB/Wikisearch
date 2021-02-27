@@ -16,6 +16,9 @@
 		margin-left: 0;
 		margin-top: 5px;
 	}
+	#m1 {
+		font-size: 66px;
+	}
 }
 
 body {
@@ -58,7 +61,7 @@ strong {
 }
 
 .smal {
-	font-size: 62px;
+	font-size: 0.65em;
 }
 
 .al_smal {
@@ -99,6 +102,13 @@ strong {
 	padding: 10px;
 	background: rgba(1, 1, 1, 1);
 	color: white;
+}
+
+.flex-wrapper {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 button {
