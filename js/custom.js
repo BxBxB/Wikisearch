@@ -27,6 +27,7 @@ function Search(term) {
         function (json) {
             results.empty();
             var result = json.query.pages;
+            document.getElementById("loader").style.visibility = "hidden";
             Object.keys(result).forEach(function (key) {
                 var title = result[key].title;
                 var description = result[key].extract;
@@ -39,7 +40,7 @@ function Search(term) {
 function Align() {
     var header = $("header");
     header.removeClass("disp");
-    $("footer").removeClass("disp");
+    $("#loader").removeClass("disp");
     $("#main").css("display", "none");
 }
 
