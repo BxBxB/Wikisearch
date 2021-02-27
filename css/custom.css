@@ -35,12 +35,39 @@ header {
 	min-height: 7em;
 }
 
-.disp {
-	display: none;
-}
-
 strong {
 	color: #444;
+}
+
+button {
+	margin: 50px 30px 0 30px;
+	border: none;
+}
+
+button:active {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: #3333ff;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000033;
+}
+
+a:hover {
+	color: blue;
+}
+
+footer {
+	font-size: 20px;
+}
+
+.disp {
+	display: none;
 }
 
 .heading {
@@ -111,11 +138,6 @@ strong {
 	justify-content: space-between;
 }
 
-button {
-	margin: 50px 30px 0 30px;
-	border: none;
-}
-
 .al_button {
 	margin: 0;
 	margin-left: 10px;
@@ -124,18 +146,14 @@ button {
 	border-radius: 5px;
 }
 
-button:active {
-	outline: none;
-}
-
 .btns {
 	min-height: 100px;
 }
 
 #loader {
 	position: absolute;
-	border: 16px solid #b4b3b3; /* Light grey */
-	border-top: 16px solid #071016; /* Blue */
+	border: 16px solid #b4b3b3;
+	border-top: 16px solid #071016;
 	border-radius: 50%;
 	width: 120px;
 	height: 120px;
@@ -171,22 +189,4 @@ button:active {
 
 .uri {
 	color: #003300;
-}
-
-a {
-	text-decoration: none;
-	color: #3333ff;
-}
-
-a:visited {
-	text-decoration: none;
-	color: #000033;
-}
-
-a:hover {
-	color: blue;
-}
-
-footer {
-	font-size: 20px;
 }
