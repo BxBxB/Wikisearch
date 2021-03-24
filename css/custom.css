@@ -151,6 +151,8 @@ footer {
 	font-size: 22px;
 	width: 538px;
 	padding: 10px;
+	border: 1px solid black;
+	height: 58px;
 }
 
 .search {

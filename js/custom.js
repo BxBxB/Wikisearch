@@ -22,10 +22,11 @@ function addResult(title, description) {
 }
 
 function Search(term) {
+    results.empty();
+    document.getElementById("loader").style.visibility = "visible";
     $.getJSON(
         url + query + extract + generator + term + callback,
         function (json) {
-            results.empty();
             var result = json.query.pages;
             document.getElementById("loader").style.visibility = "hidden";
             Object.keys(result).forEach(function (key) {
