@@ -62,6 +62,9 @@ button {
 	background: none;
 }
 
+textarea:focus,
+input:focus,
+button:focus,
 button:active {
 	outline: none;
 }
@@ -73,11 +76,6 @@ a {
 
 input {
 	border: none;
-}
-
-textarea:focus,
-input:focus {
-	outline: none;
 }
 
 in a:visited {
@@ -216,6 +214,11 @@ footer {
 	max-width: 720px;
 	display: flex;
 	justify-content: space-evenly;
+}
+
+btn:focus {
+	outline: none;
+	box-shadow: none;
 }
 
 .result {
