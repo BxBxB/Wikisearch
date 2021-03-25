@@ -58,8 +58,8 @@ strong {
 }
 
 button {
-	margin: 50px 15px 0 0;
 	border: none;
+	background: none;
 }
 
 button:active {
@@ -71,7 +71,16 @@ a {
 	color: #3333ff;
 }
 
-a:visited {
+input {
+	border: none;
+}
+
+textarea:focus,
+input:focus {
+	outline: none;
+}
+
+in a:visited {
 	text-decoration: none;
 	color: #000033;
 }
@@ -139,6 +148,10 @@ footer {
 .sbox {
 	margin: 0 auto;
 	max-width: 720px;
+	border: 1px solid black;
+	display: flex;
+	padding: 2px 7px 2px 7px;
+	border-radius: 15px;
 }
 
 .inpt {
@@ -160,8 +173,9 @@ footer {
 .search {
 	font-size: 17px;
 	padding: 10px;
-	background: white;
-	color: black;
+	background: rgb(39, 38, 38);
+	color: white;
+	max-height: 50px;
 }
 
 .al_search {
@@ -170,6 +184,15 @@ footer {
 	border: 1px solid black;
 	font-size: 22px;
 	padding: 10px;
+	background: rgb(39, 38, 38);
+	color: white;
+}
+
+.al_search:focus {
+	outline: none;
+	box-shadow: none;
+	background: rgb(39, 38, 38);
+	color: white;
 }
 
 .flex-wrapper {
@@ -187,14 +210,9 @@ footer {
 	border-radius: 5px;
 }
 
-.btn {
-	background: rgb(39, 38, 38);
-	color: white;
-}
-
 .btns {
 	min-height: 100px;
-	margin: 0 auto;
+	margin: 50px auto;
 	max-width: 720px;
 	display: flex;
 	justify-content: space-evenly;
