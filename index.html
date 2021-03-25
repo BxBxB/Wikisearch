@@ -5,118 +5,74 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
 
-		<title>WikisearcH</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+	<meta charset="UTF-8" />
 
-		<!-- #region Fonts -->
-		<link
-			href="https://fonts.googleapis.com/css?family=EB+Garamond"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=VT323"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Graduate"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Catamaran:900"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Biryani:900"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Righteous"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<!-- #endregion -->
+	<title>WikisearcH</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="css/font-awesome.min.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/custom.css" />
-		<script src="https://kit.fontawesome.com/f61cbb022e.js" crossorigin="anonymous"></script>
-	</head>
+	<!-- #region Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Catamaran:900" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Biryani:900" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet" type="text/css" />
+	<!-- #endregion -->
 
-	<body>
-		<header class="disp">
-			<span class="al_heading"
-				>W<span class="al_smal">IKISEARC</span>H</span>
-				<input id="tbx" type="text" class="al_inpt" />
-				<div id="buttons">
-					<input
-					id="asrchbox"
-					type="button"
-					class="al_search btn btn-defaudlt al_button"
-					value="Search"
-				/>
-				<button
-					class="al_button btn-default al_search"
-					type="button"
-					id="arandom"
-				>
-					Random</button
-				>&nbsp</div>
-			</div>
-		</header>
-		<div class="flex-wrapper">
-			<div id="main">
-				<h1 id="m1" class="heading">
-					W<span class="smal">IKISEARC</span>H
-				</h1>
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<script src="https://kit.fontawesome.com/f61cbb022e.js" crossorigin="anonymous"></script>
+</head>
 
-				<div id="searchbox" class="sbox">
-					<input id="itbx" class="inpt" type="text" />
-					<button id="srch-icon"><i class="fa fa-search fa-2x"></i></button>
-				</div>
-
-				<div class="btns">
-					<button
-						id="srchbox"
-						type="button"
-						class="search btn bftn-default"
-					>
-						<strong>Wikipedia Search</strong></button
-					><button
-						type="button"
-						id="random"
-						class="search btn btn-default"
-					>
-						<strong>Random Page</strong>
-					</button>
-				</div>
-			</div>
-
-			<div id="loader" class="disp"></div>
-
-			<div id="data"></div>
-
-			<footer>
-				By
-				<a href="https://github.com/BxBxB" style="color: inherit">
-					Benjamin B. Beeshma
-				</a>
-				&copy 2021
-			</footer>
+<body>
+	<header class="disp">
+		<span class="al_heading">W<span class="al_smal">IKISEARC</span>H</span>
+		<input id="tbx" type="text" class="al_inpt" />
+		<div id="buttons">
+			<input id="asrchbox" type="button" class="al_search btn btn-defaudlt al_button" value="Search" />
+			<button class="al_button btn-default al_search" type="button" id="arandom">
+				Random</button>&nbsp
 		</div>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-		<script src="js/custom.js"></script>
-	</body>
+		</div>
+	</header>
+	<div class="flex-wrapper">
+		<div id="main">
+			<h1 id="m1" class="heading">
+				W<span class="smal">IKISEARC</span>H
+			</h1>
+
+			<div id="searchbox" class="sbox">
+				<input id="itbx" class="inpt" type="text" />
+				<button id="srch-icon"><i class="fa fa-search fa-2x"></i></button>
+			</div>
+
+			<div class="btns">
+				<button id="srchbox" type="button" class="search btn bftn-default">
+					<strong>Wikipedia Search</strong></button><button type="button" id="random"
+					class="search btn btn-default">
+					<strong>Random Page</strong>
+				</button>
+			</div>
+		</div>
+
+		<div id="loader" class="disp"></div>
+
+		<div id="data"></div>
+
+		<footer>
+			By
+			<a href="https://github.com/BxBxB" style="color: inherit">
+				Benjamin B. Beeshma
+			</a>
+			&copy 2021
+		</footer>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
 </html>
