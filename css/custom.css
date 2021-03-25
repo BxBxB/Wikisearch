@@ -10,7 +10,7 @@
 	}
 }
 @media screen and (max-width: 991px) {
-	#alrandom {
+	#arandom {
 		display: none;
 	}
 	#buttons {
@@ -25,8 +25,9 @@
 		margin-top: 5px;
 	}
 	#asrchbox {
-		margin-left: 2px;
-		margin-bottom: 10px;
+		margin: 10px 0 10px 0;
+		/*max-width: 300px;
+		mmargin: 10px auto;*/
 	}
 	#arandom {
 		margin-left: 10px;
@@ -52,7 +53,8 @@ header {
 }
 
 strong {
-	color: #444;
+	color: rgb(228, 220, 220);
+	padding: 10px;
 }
 
 button {
@@ -168,8 +170,6 @@ footer {
 	border: 1px solid black;
 	font-size: 22px;
 	padding: 10px;
-	background: rgba(1, 1, 1, 1);
-	color: white;
 }
 
 .flex-wrapper {
@@ -185,6 +185,11 @@ footer {
 	padding: 12px;
 	/*bordedr: none;*/
 	border-radius: 5px;
+}
+
+.btn {
+	background: rgb(39, 38, 38);
+	color: white;
 }
 
 .btns {
